@@ -14,6 +14,7 @@
 #undef GPS_SERIAL_NUM
 
 #define LED_CONN PIN_LED2
+#define LED_PIN LED_BUILTIN
 
 #define BUTTON_PIN 9
 #define BUTTON_NEED_PULLUP
@@ -51,5 +52,3 @@
 #define SX126X_POWER_EN 25
 #define SX126X_E22 // DIO2 controlls an antenna switch and the TCXO voltage is controlled by DIO3
 #endif
-
-#include <Adafruit_TinyUSB.h>
