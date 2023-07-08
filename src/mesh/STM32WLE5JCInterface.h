@@ -29,7 +29,7 @@ static const Module::RfSwitchMode_t rfswitch_table[4] = {
     {STM32WLx::MODE_IDLE, {LOW, LOW}},
     {STM32WLx::MODE_RX, {HIGH, LOW}},
     {STM32WLx::MODE_TX_HP, {LOW, HIGH}},
-    STM32WLx::END_OF_MODE_TABLE,
+    {STM32WLx::MODE_END_OF_TABLE, {}}
 };
 
 #endif // ARCH_STM32WL
